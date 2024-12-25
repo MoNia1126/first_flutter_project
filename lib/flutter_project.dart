@@ -12,7 +12,7 @@ class FlutterProject extends StatelessWidget {
           style: TextStyle(
               fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
         ),
-        backgroundColor: Colors.lightBlue,
+        backgroundColor: Colors.lightBlue, // Background color of the appbar
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -21,11 +21,11 @@ class FlutterProject extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(
-              'assets/images/Mark.jpg',
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height * 0.25,
+              'assets/images/Mark.jpg', // Path to the image asset
+              width: MediaQuery.of(context).size.width, // Full width of the screen
+              height: MediaQuery.of(context).size.height * 0.25,  // 25% of screen height
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 10), // Spacer to add vertical space
             Image.asset(
               'assets/images/logo.jpg',
               width: MediaQuery.of(context).size.width,
